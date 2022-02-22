@@ -42,3 +42,4 @@ let index =min(arr,n);
 let x = search(arr,0,index-1,3);
 let y = search(arr,index,n-1,3);
 console.log(x >= 0 ? x : y);
+
